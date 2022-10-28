@@ -6,24 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Fakipo Web</title>
 </head>
 <body>
-    <nav class="navbar navbar-dark navbar-expand py-3 fixed-top" style = "background-color: #243B5F;" >
+    <nav class="navbar navbar-dark navbar-expand-lg py-3 fixed-top" style = "background-color: #243B5F;" >
         <div class="container">
             <a href="#" class = "navbar-brand" >Fakipo Official</a>
+            <button class = "navbar-toggler" type = "button" 
+            data-bs-toggle = "collapse" data-bs-target="#navmenu">
+                <span class = "navbar-toggler-icon"> </span>
+            </button>
+            <div class = "collapse navbar-collapse" id = "navmenu">
                 <ul class="navbar-nav">
-                    <li class="nav-item px-2">
-                        <a href="#" class="nav-link">Projects</a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="#" class="nav-link">Youtube</a>
-                    </li>      
-                    <li class="nav-item px-2">
-                        <a href="#" class="nav-link">Merch</a>
-                    </li>          
+                        <li class="nav-item px-2">
+                            <a href="#" class="nav-link fs-5">Projects Portfolio</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a href="#" class="nav-link fs-5">Youtube</a>
+                        </li>      
+                        <li class="nav-item px-2">
+                            <a href="#" class="nav-link fs-5">Merch</a>
+                        </li>         
+                        <li class="nav-item px-2">
+                            <a href="#" class="nav-link fs-5">FPL</a>
+                        </li>   
+                        <li class="nav-item px-2">
+                            <a href="#" class="nav-link fs-5">About Us</a>
+                        </li>  
                 </ul>
-        </div>    
+            </div>
+            </div>    
     </nav>
+    <section class = "py-3" style = "background-color: #243B5F;">
+        <div class="container py-3">
+            <div class = "d-sm-flex align-items-center justify-content-between">
+                <div> 
+                    <h1 class = "text-white">Get your <span class = "text-warning">FPL membership</span> </h1>
+                    <p class = "lead text-white">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est provident necessitatibus incidunt labore, quae alias fuga reiciendis repellendus nostrum numquam architecto enim voluptatibus neque. Veniam consequuntur delectus ea deserunt. Fugiat quos cumque asperiores accusamus quaerat amet, cupiditate incidunt iste tempore, est illo odit facere ex quo aut veritatis error voluptatem.
+                    </p>
+                    <button class = "btn btn-primary btn-lg">Register Today</button>
+                </div>
+                <img class = " img-fluid w-50 d-none d-sm-block" src="Futbol1.svg" alt="some men" style = "max-width: 200%;">    
+            </div>
+        </div>
+    </section>
 </body>
 </html>
